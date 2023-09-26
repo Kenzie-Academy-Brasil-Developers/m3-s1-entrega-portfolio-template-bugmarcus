@@ -1,10 +1,9 @@
 import React from "react";
-import BannerImg from "../../assets/banner-img.png";
-import styles from "./AboutMe.modules.css";
+import styles from "./AboutMe.module.css";
 
 const AboutMe = () => {
   return (
-    <section className={styles.AboutMe}>
+    <section className={styles.AboutMeSection}>
       <div className={styles.bioTitle}>
         <p>Sobre mim</p>
       </div>

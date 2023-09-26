@@ -1,0 +1,19 @@
+.AboutMeSection {
+  margin-top: 6.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.bioTitle {
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.bioText {
+  top: 0px;
+  left: 281px;
+  line-height: 30px;
+  display: inline-block;
+  width: 615px;
+}
