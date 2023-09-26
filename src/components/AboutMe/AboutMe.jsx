@@ -1,23 +1,24 @@
 import React from "react";
 import BannerImg from "../../assets/banner-img.png";
-import styles from "./BannerSection.module.css";
+import styles from "./AboutMe.modules.css";
 
-const BannerSection = () => {
+const AboutMe = () => {
   return (
-    <section className={styles.bannerSection}>
-      <div className={styles.column}>
-        <p className={styles.name}>MARCUS QUEIROZ</p>
-        <p className={styles.welcome}>Bem vindo ao meu portfólio</p>
-        <p className={styles.bio}>Desenvolvedor Full Stack</p>
-        <a className={styles.button} href="#about">
-          Saiba mais
-        </a>
+    <section className={styles.AboutMe}>
+      <div className={styles.bioTitle}>
+        <p>Sobre mim</p>
       </div>
-      <div className={styles.img}>
-        <img src={BannerImg} alt="Imagem de um notebook, arte complementar" />
+      <div className={styles.bioText}>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ex
+          magna, imperdiet sodales sem quis, sollicitudin lobortis purus. Etiam
+          a ipsum finibus, dictum leo non, ultrices dui. Nunc id felis pharetra,
+          vehicula enim in, suscipit nisi. Mauris eget sapien a velit facilisis
+          ullamcorper feugiat nec orci. Duis ac iaculis turpis, at feugiat orci.
+        </p>
       </div>
     </section>
   );
 };
 
-export default BannerSection;
+export default AboutMe;
