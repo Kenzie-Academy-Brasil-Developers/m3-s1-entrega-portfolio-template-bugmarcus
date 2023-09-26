@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* font-size: var(--font-size-21xl); */
+  color: var(--white, #fff);
+  font-family: Inter;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.menu {
+  display: flex;
+}
+
+.menuItem {
+  margin: 0 3.75rem;
+}
+
+.menuItem:first-of-type {
+  margin-left: 0;
+}
+
+.menuItem:last-of-type {
+  margin-right: 0;
+}
+
+.extraItem {
+  width: 7.125rem;
+  height: 2.4375rem;
+  flex-shrink: 0;
+  border-radius: 0.75rem;
+  background: var(--purple, #6880ff);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

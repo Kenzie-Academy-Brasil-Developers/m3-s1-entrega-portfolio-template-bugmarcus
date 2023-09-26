@@ -1,0 +1,44 @@
+/* reset.css */
+@import url("reset.css");
+
+:root {
+  --background: linear-gradient(
+    180deg,
+    #0c0c0c 0%,
+    rgba(12, 12, 12, 0.94) 100%
+  );
+
+  /* fonts */
+  --paragraph: Inter;
+  --font-poppins: Poppins;
+
+  /* font sizes */
+  --font-size-sm: 0.88rem;
+  --paragraph-size: 1rem;
+  --font-size-mini: 0.94rem;
+  --font-size-29xl: 3rem;
+  --font-size-21xl: 2.5rem;
+  --font-size-3xl: 1.38rem;
+
+  /* Colors */
+  --white: #fff;
+  --purple: #6880ff;
+  --color-black: #000;
+  --color-gray-100: rgba(255, 255, 255, 0.5);
+
+  /* Border radiuses */
+  --br-xs: 12px;
+  --br-6xl: 25px;
+}
+
+a {
+  color: var(--white);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background: var(--background);
+  color: var(--white);
+}

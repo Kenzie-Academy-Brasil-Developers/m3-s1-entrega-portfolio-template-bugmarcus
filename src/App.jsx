@@ -1,11 +1,13 @@
 import React from "react";
-import Header from "./components/molecules/Header";
-import "./index.css"; // Importando o CSS global
+import Header from "./components/Header/Header";
+import "./index.css";
+import BannerSection from "./components/BannerSection/BannerSection";
 
 const App = () => {
   return (
     <div>
       <Header />
+      <BannerSection />
     </div>
   );
 };
