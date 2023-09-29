@@ -31,6 +31,10 @@
   --br-6xl: 25px;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 a {
   color: var(--white);
   cursor: pointer;
