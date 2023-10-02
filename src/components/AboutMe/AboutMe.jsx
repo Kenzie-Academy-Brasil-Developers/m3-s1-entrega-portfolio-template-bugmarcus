@@ -9,11 +9,13 @@ const AboutMe = () => {
       </div>
       <div className={styles.bioText}>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ex
-          magna, imperdiet sodales sem quis, sollicitudin lobortis purus. Etiam
-          a ipsum finibus, dictum leo non, ultrices dui. Nunc id felis pharetra,
-          vehicula enim in, suscipit nisi. Mauris eget sapien a velit facilisis
-          ullamcorper feugiat nec orci. Duis ac iaculis turpis, at feugiat orci.
+          Desenvolvedor Full Stack. Entre minhas conquistas recentes, tenho
+          orgulho de desenvolvi um bot para o Telegram, permitindo downloads de
+          mídia do Instagram do Instagram por meio de links fornecidos pelo
+          usuário. Minha paixão por inovação, aliada à minha dedicação e
+          proficiência em diversas tecnologias, me tornam um ativo valioso para
+          qualquer equipe de desenvolvimento. Vamos colaborar para criar
+          soluções extraordinárias que causem um impacto real!
         </p>
       </div>
     </section>

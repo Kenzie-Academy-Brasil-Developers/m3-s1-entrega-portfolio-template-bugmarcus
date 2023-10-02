@@ -1,16 +1,40 @@
 .technologies {
   display: flex;
   gap: 2rem;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
 }
 
 .technologyCard {
+  margin-top: 2.75rem;
   display: flex;
-  position: relative;
   border-radius: 25px;
   border: 1px solid rgba(255, 255, 255, 0.5);
-  box-sizing: border-box;
-  width: 100%;
-  height: 86px;
+  width: 17.9375rem;
+  height: 5.375rem;
+  flex-shrink: 0;
   align-items: center;
   justify-content: space-evenly;
+  margin-bottom: 8rem;
+}
+
+.title {
+  display: flex;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+  font-size: 40px;
+  font-weight: 800;
+  padding-left: 21.5rem;
+  flex-basis: 100%;
+  height: 0;
+}
+
+.techName {
+  color: var(--white);
+  font-family: Inter;
+  font-size: 1.375rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
 }
