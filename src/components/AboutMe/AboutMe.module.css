@@ -7,7 +7,6 @@
 .bioTitle {
   font-size: 40px;
   font-weight: 800;
-  padding-left: 21.5rem;
   flex: 1;
 }
 
@@ -17,6 +16,5 @@
   line-height: 30px;
   display: inline-block;
   max-width: 50rem;
-  padding-right: 21.5rem;
   flex: 2;
 }

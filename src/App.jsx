@@ -6,10 +6,11 @@ import AboutMe from "./components/AboutMe/AboutMe";
 import Technologies from "./components/Technologies/Technologies";
 import Projetos from "./components/Projetos/Projetos";
 import Rodape from "./components/Rodape/Rodape";
+import style from "../src/App.module.css";
 
 const App = () => {
   return (
-    <div>
+    <div className={style.column}>
       <Header />
       <BannerSection />
       <AboutMe />

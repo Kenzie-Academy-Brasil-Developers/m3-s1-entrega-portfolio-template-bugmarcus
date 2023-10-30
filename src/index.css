@@ -31,10 +31,6 @@
   --br-6xl: 25px;
 }
 
-* {
-  box-sizing: border-box;
-}
-
 a {
   color: var(--white);
   cursor: pointer;
@@ -45,4 +41,6 @@ body {
   font-family: "Inter", sans-serif;
   background: var(--background);
   color: var(--white);
+  max-width: 90rem;
+  margin: 0 auto;
 }

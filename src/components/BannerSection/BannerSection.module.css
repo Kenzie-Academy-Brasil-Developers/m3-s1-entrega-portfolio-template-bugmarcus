@@ -1,7 +1,11 @@
 .bannerSection {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+}
+
+.all {
+  padding: 0 10rem;
 }
 
 .name {
@@ -21,7 +25,6 @@
   font-family: Inter;
   color: #fff;
   text-align: left;
-  margin-right: 7.8rem;
   margin-bottom: 1.44rem;
 }
 

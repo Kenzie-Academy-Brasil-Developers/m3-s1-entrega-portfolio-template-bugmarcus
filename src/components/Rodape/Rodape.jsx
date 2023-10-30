@@ -12,18 +12,20 @@ const Rodape = () => {
         <div className={styles.todosOsDireitos}>
           Todos os direitos reservados - Marcus Queiroz
         </div>
-        <a className={styles.icon} href="https://github.com/bugmarcus">
-          <img src={githubLogo} alt="Icone do Github" />
-        </a>
-        <a
-          className={styles.icon2}
-          href="https://www.linkedin.com/in/marcus-queiroz/"
-        >
-          <img src={linkedinLogo} alt="Icone do Linkedin" />
-        </a>
-        <a className={styles.icon2} href="https://wa.me/5512982518567">
-          <img src={whatsappLogo} alt="Icone do Whatasapp" />
-        </a>
+        <div className={styles.icons}>
+          <a className={styles.icon} href="https://github.com/bugmarcus">
+            <img src={githubLogo} alt="Icone do Github" />
+          </a>
+          <a
+            className={styles.icon2}
+            href="https://www.linkedin.com/in/marcus-queiroz/"
+          >
+            <img src={linkedinLogo} alt="Icone do Linkedin" />
+          </a>
+          <a className={styles.icon2} href="https://wa.me/5512982518567">
+            <img src={whatsappLogo} alt="Icone do Whatasapp" />
+          </a>
+        </div>
       </div>
     </div>
   );
