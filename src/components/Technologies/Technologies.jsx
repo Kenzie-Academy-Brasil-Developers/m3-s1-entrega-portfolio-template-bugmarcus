@@ -1,19 +1,18 @@
 import React from "react";
-import { technologies } from "../../data/technologies";
+import Card from "../Card/Card";
 import styles from "./Technologies.module.css";
+import image from "../../assets/html-icon.png";
+import { technologies } from "../../data/technologies";
 
 const Technologies = () => {
   return (
     <div>
       <div className={styles.title}>
-        <p>Technologias</p>
+        <p>Tecnologias</p>
       </div>
-      <div className={styles.technologies}>
-        {technologies.map((tech, index) => (
-          <div key={index} className={styles.technologyCard}>
-            <img src={tech.img} alt={`${tech.name} Icon`} />
-            <span className={styles.techName}>{tech.name}</span>
-          </div>
+      <div className={styles.cards}>
+        {technologies.map((tech) => (
+          <Card img={tech.img} name={tech.name} />
         ))}
       </div>
     </div>
